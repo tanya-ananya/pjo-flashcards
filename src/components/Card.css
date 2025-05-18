@@ -1,0 +1,26 @@
+.card-element {
+    background-color: #d8ebe1;
+    border: 6px #195847 solid;
+    border-radius: 20px;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 200px;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+    padding: 2% 3%;
+    white-space: normal;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+    .card-element {
+        background-color: #195847;
+        border: 6px #d8ebe1 solid;
+        color: white;
+    }
+}

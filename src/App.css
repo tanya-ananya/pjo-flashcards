@@ -1,0 +1,37 @@
+#root {
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 5%;
+}
+
+.questions {
+  line-height: 1.5;
+  font-size: large;
+}
+
+.nav-btns {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-display {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 0 12px;
+}
+
+footer {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+}
